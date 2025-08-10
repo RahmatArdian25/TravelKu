@@ -1,0 +1,122 @@
+CRITICAL - 2024-02-25 06:48:48 --> Undefined variable $val
+in APPPATH\Views\barang\merk.php on line 53.
+ 1 APPPATH\Views\barang\merk.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'D:\\web 2\\Prjmagangluthfi\\app\\Views\\barang\\merk.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\web 2\\Prjmagangluthfi\\app\\Views\\barang\\merk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barang/merk.php', [], true)
+ 5 APPPATH\Controllers\Merk.php(9): view('barang/merk.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 08:12:25 --> Class "App\Controllers\ModelDonatur" not found
+in APPPATH\Controllers\Merk.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->save()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 08:12:59 --> Array to string conversion
+in APPPATH\Controllers\Merk.php on line 29.
+ 1 APPPATH\Controllers\Merk.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\web 2\\Prjmagangluthfi\\app\\Controllers\\Merk.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 08:13:21 --> Undefined variable $idmerk
+in APPPATH\Controllers\Merk.php on line 29.
+ 1 APPPATH\Controllers\Merk.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idmerk', 'D:\\web 2\\Prjmagangluthfi\\app\\Controllers\\Merk.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 08:28:14 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Merk.php(24): CodeIgniter\HTTP\Files\UploadedFile->move('img/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 10:16:14 --> Undefined variable $donatur
+in APPPATH\Views\barang\v_merk.php on line 47.
+ 1 APPPATH\Views\barang\v_merk.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $donatur', 'D:\\web 2\\Prjmagangluthfi\\app\\Views\\barang\\v_merk.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\web 2\\Prjmagangluthfi\\app\\Views\\barang\\v_merk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barang/v_merk.php', [], true)
+ 5 APPPATH\Controllers\Merk.php(13): view('barang/v_merk.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 10:26:07 --> Undefined variable $merk
+in APPPATH\Views\barang\v_editmerk.php on line 44.
+ 1 APPPATH\Views\barang\v_editmerk.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $merk', 'D:\\web 2\\Prjmagangluthfi\\app\\Views\\barang\\v_editmerk.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\web 2\\Prjmagangluthfi\\app\\Views\\barang\\v_editmerk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('barang/v_editmerk.php', [], true)
+ 5 APPPATH\Controllers\Merk.php(26): view('barang/v_editmerk.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->editmerk()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 10:49:15 --> unlink(img/logobrand/m-001): No such file or directory
+in APPPATH\Controllers\Merk.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/logobrand/m-001): No such file or directory', 'D:\\web 2\\Prjmagangluthfi\\app\\Controllers\\Merk.php', 26)
+ 2 APPPATH\Controllers\Merk.php(26): unlink('img/logobrand/m-001')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->editmerk()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 10:54:02 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Merk.php(70): CodeIgniter\HTTP\Files\UploadedFile->move('img/logobrand/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 10:55:42 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Merk.php(70): CodeIgniter\HTTP\Files\UploadedFile->move('img/logobrand/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 10:56:20 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Merk.php(70): CodeIgniter\HTTP\Files\UploadedFile->move('img/logobrand/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 12:31:27 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Merk.php(32): CodeIgniter\HTTP\Files\UploadedFile->move('img/logobrand/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+CRITICAL - 2024-02-25 12:33:02 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Merk.php(32): CodeIgniter\HTTP\Files\UploadedFile->move('img/logobrand/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Merk->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')

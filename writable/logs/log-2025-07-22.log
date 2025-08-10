@@ -1,0 +1,850 @@
+INFO - 2025-07-22 11:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 11:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 11:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 11:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 11:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 11:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 12:27:34 --> mysqli_sql_exception: Table 'db_travel.pemesanan_penumpang' doesn't exist in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(87): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->store()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2025-07-22 12:27:34 --> Table 'db_travel.pemesanan_penumpang' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pemesanan`
+JOIN `pemesanan_penumpang` ON `pemesanan`.`idpemesanan` = `pemesanan_penumpang`.`idpemesanan`
+WHERE `tanggal` = :tanggal:
+AND `idrute` = :idrute:
+AND `kursikendaraanid` = :kursikendaraanid:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\Pemesanan.php(87): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 12:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 12:41:55 --> "valid_time" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_time')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('jam', 'jam', '08:41', [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\JadwalBerangkatController.php(42): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 12:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 12:43:46 --> Cannot redeclare App\Controllers\JadwalBerangkatController::update()
+in APPPATH\Controllers\JadwalBerangkatController.php on line 107.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2025-07-22 12:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 12:57:23 --> Invalid file: "layout/main.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('laporan/penumpang', [], true)
+ 4 APPPATH\Controllers\User.php(126): view('laporan/penumpang', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User->laporanPenumpang()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 12:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 12:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 13:24:23 --> mysqli_sql_exception: Table 'db_travel.jadwal_berangkat' doesn't exist in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `j`.*, `...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `j`.*, `...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `j`.*, `...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `j`.*, `...', Array, false)
+#4 C:\laragon\www\Magangrayhan\app\Models\ModelJadwalBerangkat.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\app\Controllers\JadwalBerangkatController.php(123): App\Models\ModelJadwalBerangkat->getJadwalByTanggal('2025-07-22')
+#6 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->laporanJadwal()
+#7 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2025-07-22 13:24:23 --> Table 'db_travel.jadwal_berangkat' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `j`.*, `u`.`nama_user`, `k`.`nama_kendaraan`, `r`.`asal`, `r`.`tujuan`, `r`.`harga`
+FROM `jadwal_berangkat` `j`
+JOIN `user` `u` ON `u`.`iduser` = `j`.`iduser`
+JOIN `kendaraan` `k` ON `k`.`idkendaraan` = `j`.`idkendaraan`
+JOIN `rute` `r` ON `r`.`idrute` = `j`.`idrute`
+WHERE `j`.`tanggal` = :j.tanggal:
+ORDER BY `j`.`jam` ASC', [...], false)
+ 2 APPPATH\Models\ModelJadwalBerangkat.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalBerangkatController.php(123): App\Models\ModelJadwalBerangkat->getJadwalByTanggal('2025-07-22')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->laporanJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 13:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 13:25:08 --> mysqli_sql_exception: Unknown column 'k.nama_kendaraan' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `j`.*, `...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `j`.*, `...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `j`.*, `...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `j`.*, `...', Array, false)
+#4 C:\laragon\www\Magangrayhan\app\Models\ModelJadwalBerangkat.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\app\Controllers\JadwalBerangkatController.php(123): App\Models\ModelJadwalBerangkat->getJadwalByTanggal('2025-07-22')
+#6 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->laporanJadwal()
+#7 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2025-07-22 13:25:08 --> Unknown column 'k.nama_kendaraan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `j`.*, `u`.`nama_user`, `k`.`nama_kendaraan`, `r`.`asal`, `r`.`tujuan`, `r`.`harga`
+FROM `jadwalberangkat` `j`
+JOIN `user` `u` ON `u`.`iduser` = `j`.`iduser`
+JOIN `kendaraan` `k` ON `k`.`idkendaraan` = `j`.`idkendaraan`
+JOIN `rute` `r` ON `r`.`idrute` = `j`.`idrute`
+WHERE `j`.`tanggal` = :j.tanggal:
+ORDER BY `j`.`jam` ASC', [...], false)
+ 2 APPPATH\Models\ModelJadwalBerangkat.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalBerangkatController.php(123): App\Models\ModelJadwalBerangkat->getJadwalByTanggal('2025-07-22')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->laporanJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 13:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 13:25:36 --> mysqli_sql_exception: Unknown column 'u.iduser' in 'on clause' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `j`.*, `...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `j`.*, `...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `j`.*, `...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `j`.*, `...', Array, false)
+#4 C:\laragon\www\Magangrayhan\app\Models\ModelJadwalBerangkat.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\app\Controllers\JadwalBerangkatController.php(123): App\Models\ModelJadwalBerangkat->getJadwalByTanggal('2025-07-22')
+#6 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->laporanJadwal()
+#7 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2025-07-22 13:25:36 --> Unknown column 'u.iduser' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `j`.*, `u`.`nama_user`, `k`.`namakendaraan`, `r`.`asal`, `r`.`tujuan`, `r`.`harga`
+FROM `jadwalberangkat` `j`
+JOIN `user` `u` ON `u`.`iduser` = `j`.`iduser`
+JOIN `kendaraan` `k` ON `k`.`idkendaraan` = `j`.`idkendaraan`
+JOIN `rute` `r` ON `r`.`idrute` = `j`.`idrute`
+WHERE `j`.`tanggal` = :j.tanggal:
+ORDER BY `j`.`jam` ASC', [...], false)
+ 2 APPPATH\Models\ModelJadwalBerangkat.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\JadwalBerangkatController.php(123): App\Models\ModelJadwalBerangkat->getJadwalByTanggal('2025-07-22')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->laporanJadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 13:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 13:25:55 --> Undefined array key "nama_kendaraan"
+in APPPATH\Views\laporan\jadwal.php on line 46.
+ 1 APPPATH\Views\laporan\jadwal.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kendaraan"', 'C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\jadwal.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\jadwal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('laporan/jadwal', [], true)
+ 5 APPPATH\Controllers\JadwalBerangkatController.php(127): view('laporan/jadwal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->laporanJadwal()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 13:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 13:38:50 --> Call to undefined method App\Models\ModelPemesanan::getPemesananByYear
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pemesanan.php(295): CodeIgniter\Model->__call('getPemesananByYear', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->laporanPemesananTahunan()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 13:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 13:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 14:02:37 --> Undefined array key "idjadwal"
+in APPPATH\Views\laporan\surat_jalan.php on line 7.
+ 1 APPPATH\Views\laporan\surat_jalan.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idjadwal"', 'C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\surat_jalan.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\surat_jalan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('laporan/surat_jalan', [], true)
+ 5 APPPATH\Controllers\JadwalBerangkatController.php(163): view('laporan/surat_jalan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->generateSuratJalan('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:06:39 --> mysqli_sql_exception: Unknown column 'user.nohp_user' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `jadwalb...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwalb...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwalb...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `jadwalb...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelJadwalBerangkat.php(59): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\JadwalBerangkatController.php(21): App\Models\ModelJadwalBerangkat->getJadwalWithDetails()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->index()
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:06:39 --> Unknown column 'user.nohp_user' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `jadwalberangkat`.*, `user`.`nama_user`, `user`.`nohp_user`, `kendaraan`.`namakendaraan`, `kendaraan`.`nopolisi_kendaraan`, `kendaraan`.`jeniskendaraan`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`
+FROM `jadwalberangkat`
+JOIN `user` ON `user`.`id_user` = `jadwalberangkat`.`iduser`
+JOIN `kendaraan` ON `kendaraan`.`idkendaraan` = `jadwalberangkat`.`idkendaraan`
+JOIN `rute` ON `rute`.`idrute` = `jadwalberangkat`.`idrute`
+WHERE `user`.`status` = :user.status:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelJadwalBerangkat.php(59): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\JadwalBerangkatController.php(21): App\Models\ModelJadwalBerangkat->getJadwalWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:07:16 --> mysqli_sql_exception: Unknown column 'kendaraan.jeniskendaraan' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `jadwalb...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwalb...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwalb...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `jadwalb...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelJadwalBerangkat.php(59): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\JadwalBerangkatController.php(21): App\Models\ModelJadwalBerangkat->getJadwalWithDetails()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->index()
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:07:16 --> Unknown column 'kendaraan.jeniskendaraan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `jadwalberangkat`.*, `user`.`nama_user`, `user`.`nohp`, `kendaraan`.`namakendaraan`, `kendaraan`.`nopolisi_kendaraan`, `kendaraan`.`jeniskendaraan`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`
+FROM `jadwalberangkat`
+JOIN `user` ON `user`.`id_user` = `jadwalberangkat`.`iduser`
+JOIN `kendaraan` ON `kendaraan`.`idkendaraan` = `jadwalberangkat`.`idkendaraan`
+JOIN `rute` ON `rute`.`idrute` = `jadwalberangkat`.`idrute`
+WHERE `user`.`status` = :user.status:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelJadwalBerangkat.php(59): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\JadwalBerangkatController.php(21): App\Models\ModelJadwalBerangkat->getJadwalWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 14:07:49 --> Undefined array key "nohp_user"
+in APPPATH\Views\laporan\surat_jalan.php on line 22.
+ 1 APPPATH\Views\laporan\surat_jalan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nohp_user"', 'C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\surat_jalan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\surat_jalan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('laporan/surat_jalan', [], true)
+ 5 APPPATH\Controllers\JadwalBerangkatController.php(167): view('laporan/surat_jalan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\JadwalBerangkatController->generateSuratJalan('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalBerangkatController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 14:20:00 --> Undefined array key "idpemesanan"
+in APPPATH\Views\laporan\tiket.php on line 14.
+ 1 APPPATH\Views\laporan\tiket.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpemesanan"', 'C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\tiket.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Magangrayhan\\app\\Views\\laporan\\tiket.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('laporan/tiket', [], true)
+ 5 APPPATH\Controllers\Pemesanan.php(335): view('laporan/tiket', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:21:53 --> mysqli_sql_exception: Unknown column 'kendaraan.nama_kendaraan' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:21:53 --> Unknown column 'kendaraan.nama_kendaraan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`, `kendaraan`.`nama_kendaraan`, `kendaraan`.`nopol`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+LEFT JOIN `kendaraan` ON `kendaraan`.`idkendaraan` = `rute`.`idkendaraan`
+WHERE `pemesanan`.`idpemesanan` = :pemesanan.idpemesanan:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:22:22 --> mysqli_sql_exception: Unknown column 'kendaraan.nopol' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:22:22 --> Unknown column 'kendaraan.nopol' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`, `kendaraan`.`namakendaraan`, `kendaraan`.`nopol`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+LEFT JOIN `kendaraan` ON `kendaraan`.`idkendaraan` = `rute`.`idkendaraan`
+WHERE `pemesanan`.`idpemesanan` = :pemesanan.idpemesanan:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:22:48 --> mysqli_sql_exception: Unknown column 'rute.idkendaraan' in 'on clause' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:22:48 --> Unknown column 'rute.idkendaraan' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`, `kendaraan`.`namakendaraan`, `kendaraan`.`nopolisi_kendaraan`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+LEFT JOIN `kendaraan` ON `kendaraan`.`idkendaraan` = `rute`.`idkendaraan`
+WHERE `pemesanan`.`idpemesanan` = :pemesanan.idpemesanan:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:23:38 --> mysqli_sql_exception: Unknown column 'kendaraan.namakendaraan' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:23:38 --> Unknown column 'kendaraan.namakendaraan' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`, `kendaraan`.`namakendaraan`, `kendaraan`.`nopolisi_kendaraan`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+WHERE `pemesanan`.`idpemesanan` = :pemesanan.idpemesanan:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Pemesanan.php(324): App\Models\ModelPemesanan->getPemesananWithDetails('4')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->cetakTiket('4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:31:49 --> mysqli_sql_exception: Unknown column 'rute.jadwal_berangkat' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(34): App\Models\ModelPemesanan->getPemesananWithDetails()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:31:49 --> Unknown column 'rute.jadwal_berangkat' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`, `rute`.`jadwal_berangkat`, `kendaraan`.`nama_kendaraan`, `kendaraan`.`nomor_polisi`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+JOIN `kendaraan` ON `kendaraan`.`idkendaraan` = `rute`.`idkendaraan`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelPemesanan.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pemesanan.php(34): App\Models\ModelPemesanan->getPemesananWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:31:55 --> mysqli_sql_exception: Unknown column 'rute.jadwal_berangkat' in 'field list' in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(53): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(34): App\Models\ModelPemesanan->getPemesananWithDetails()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:31:55 --> Unknown column 'rute.jadwal_berangkat' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`, `rute`.`jadwal_berangkat`, `kendaraan`.`nama_kendaraan`, `kendaraan`.`nomor_polisi`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+JOIN `kendaraan` ON `kendaraan`.`idkendaraan` = `rute`.`idkendaraan`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelPemesanan.php(53): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pemesanan.php(34): App\Models\ModelPemesanan->getPemesananWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 14:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 14:54:16 --> Undefined array key "iduser"
+in APPPATH\Controllers\Pemesanan.php on line 39.
+ 1 APPPATH\Controllers\Pemesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'C:\\laragon\\www\\Magangrayhan\\app\\Controllers\\Pemesanan.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 14:55:52 --> Undefined array key "iduser"
+in APPPATH\Controllers\Pemesanan.php on line 39.
+ 1 APPPATH\Controllers\Pemesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'C:\\laragon\\www\\Magangrayhan\\app\\Controllers\\Pemesanan.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 14:56:14 --> Undefined array key "id_user"
+in APPPATH\Controllers\Pemesanan.php on line 39.
+ 1 APPPATH\Controllers\Pemesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_user"', 'C:\\laragon\\www\\Magangrayhan\\app\\Controllers\\Pemesanan.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-22 14:56:37 --> Undefined array key "iduser"
+in APPPATH\Controllers\Pemesanan.php on line 39.
+ 1 APPPATH\Controllers\Pemesanan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'C:\\laragon\\www\\Magangrayhan\\app\\Controllers\\Pemesanan.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 14:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 14:59:06 --> mysqli_sql_exception: Column 'id_user' in where clause is ambiguous in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(39): App\Models\ModelPemesanan->getPemesananWithDetails()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 14:59:06 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+WHERE `id_user` = :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pemesanan.php(39): App\Models\ModelPemesanan->getPemesananWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 15:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 15:02:39 --> mysqli_sql_exception: Column 'id_user' in where clause is ambiguous in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(39): App\Models\ModelPemesanan->getPemesananWithDetails()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 15:02:39 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+WHERE `id_user` = :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pemesanan.php(39): App\Models\ModelPemesanan->getPemesananWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 15:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-22 15:02:41 --> mysqli_sql_exception: Column 'id_user' in where clause is ambiguous in C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pemesan...', 0)
+#1 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pemesan...')
+#2 C:\laragon\www\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pemesan...')
+#3 C:\laragon\www\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesan...', Array, false)
+#4 C:\laragon\www\Magangrayhan\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\Magangrayhan\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\Magangrayhan\app\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\Magangrayhan\app\Controllers\Pemesanan.php(39): App\Models\ModelPemesanan->getPemesananWithDetails()
+#8 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+#9 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#10 C:\laragon\www\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2025-07-22 15:02:41 --> Column 'id_user' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pemesanan`.*, `user`.`nama_user`, `rute`.`asal`, `rute`.`tujuan`, `rute`.`harga`
+FROM `pemesanan`
+JOIN `user` ON `user`.`id_user` = `pemesanan`.`id_user`
+JOIN `rute` ON `rute`.`idrute` = `pemesanan`.`idrute`
+WHERE `id_user` = :id_user:', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ModelPemesanan.php(50): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Pemesanan.php(39): App\Models\ModelPemesanan->getPemesananWithDetails()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Magangrayhan\\public\\index.php')
+INFO - 2025-07-22 15:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-22 15:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,794 @@
+INFO - 2025-03-29 12:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-29 12:27:09 --> Invalid file: "sepatu/v_sepatu.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sepatu/v_sepatu.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('sepatu/v_sepatu.php', [], true)
+ 3 APPPATH\Controllers\Sepatu.php(14): view('sepatu/v_sepatu.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sepatu->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sepatu))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 12:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 12:46:49 --> mysqli_sql_exception: Unknown column 'idhp' in 'field list' in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 12:46:49 --> Unknown column 'idhp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idhp`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idhp:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 12:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 12:48:35 --> mysqli_sql_exception: Unknown column 'idhp' in 'field list' in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 12:48:35 --> Unknown column 'idhp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idhp`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idhp:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 12:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 12:49:26 --> mysqli_sql_exception: Unknown column 'nosepatu' in 'field list' in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 12:49:26 --> Unknown column 'nosepatu' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nosepatu`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nosepatu:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 12:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 12:49:54 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 12:49:54 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 12:51:36 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 12:51:36 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 12:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 12:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 12:58:52 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 12:58:52 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 13:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 13:04:50 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 13:04:50 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 13:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 13:07:33 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 13:07:33 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 13:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 13:15:01 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 13:15:01 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 13:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 13:19:11 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 13:19:11 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 13:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 13:28:48 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 13:28:48 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 13:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 13:42:15 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 13:42:15 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 13:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 13:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 14:10:31 --> mysqli_sql_exception: Table 'dbprojectmagang.tbl_sepatu' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelSepatu.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\magang\Magangrayhan\app\Controllers\Sepatu.php(12): App\Models\ModelSepatu->getsepatu()
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Sepatu->index()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sepatu))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 14:10:31 --> Table 'dbprojectmagang.tbl_sepatu' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_sepatu`
+JOIN `tbl_brand` ON `tbl_brand`.`idbrand` = `tbl_sepatu`.`idsepatu`', [], false)
+ 2 APPPATH\Models\ModelSepatu.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Sepatu.php(12): App\Models\ModelSepatu->getsepatu()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sepatu->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sepatu))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 14:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 14:11:10 --> mysqli_sql_exception: Table 'dbprojectmagang.tbl_sepatu' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(`i...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelUser.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\magang\Magangrayhan\app\Controllers\Home.php(15): App\Models\ModelUser->jmlbarang()
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 14:11:10 --> Table 'dbprojectmagang.tbl_sepatu' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`idsepatu`) AS `idsepatu`
+FROM `tbl_sepatu`', [], false)
+ 2 APPPATH\Models\ModelUser.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(15): App\Models\ModelUser->jmlbarang()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 14:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 14:13:03 --> mysqli_sql_exception: Table 'dbprojectmagang.tbl_sepatu' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(`i...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`i...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`i...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelUser.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\magang\Magangrayhan\app\Controllers\Home.php(15): App\Models\ModelUser->jmlbarang()
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 14:13:03 --> Table 'dbprojectmagang.tbl_sepatu' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`idsepatu`) AS `idsepatu`
+FROM `tbl_sepatu`', [], false)
+ 2 APPPATH\Models\ModelUser.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(15): App\Models\ModelUser->jmlbarang()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 14:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 14:18:38 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 14:18:38 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 14:32:24 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 14:32:24 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 14:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 14:49:49 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 14:49:50 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 14:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 14:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 14:53:25 --> mysqli_sql_exception: Table 'dbmagangrayhan.tbl_hp' doesn't exist in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 14:53:25 --> Table 'dbmagangrayhan.tbl_hp' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 16:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 16:40:39 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 16:40:39 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idsepatu`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idsepatu:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(46): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 16:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 16:44:58 --> mysqli_sql_exception: Unknown column 'idhp' in 'field list' in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(47): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 16:44:58 --> Unknown column 'idhp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idhp`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idhp:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(47): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 16:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 16:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-03-29 17:01:29 --> mysqli_sql_exception: Unknown column 'idhp' in 'field list' in D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\magang\Magangrayhan\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\magang\Magangrayhan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\magang\Magangrayhan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\magang\Magangrayhan\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\magang\Magangrayhan\app\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\magang\Magangrayhan\app\Controllers\Pemesanan.php(47): App\Models\ModelPemesanan->insertData(Array)
+#6 D:\magang\Magangrayhan\system\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+#7 D:\magang\Magangrayhan\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+#8 D:\magang\Magangrayhan\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\magang\Magangrayhan\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\magang\Magangrayhan\system\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magan...')
+#11 {main}
+CRITICAL - 2025-03-29 17:01:29 --> Unknown column 'idhp' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pemesanan` (`idhp`, `id_user`, `namapenerima`, `alamat`, `nohp`, `tanggalpesan`, `status`) VALUES (:idhp:, :id_user:, :namapenerima:, :alamat:, :nohp:, :tanggalpesan:, :status:)', [...], false)
+ 2 APPPATH\Models\ModelPemesanan.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Pemesanan.php(47): App\Models\ModelPemesanan->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->save()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\magang\\Magangrayhan\\public\\index.php')
+INFO - 2025-03-29 17:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 17:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-03-29 18:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

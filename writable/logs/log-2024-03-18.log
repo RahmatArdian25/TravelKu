@@ -1,0 +1,52 @@
+INFO - 2024-03-18 06:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-18 06:03:14 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'dbprojectmagang' in D:\web 2\Prjmagangluthfi\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\web 2\Prjmagangluthfi\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'dbprojectmagang', 3306, '', 0)
+#1 D:\web 2\Prjmagangluthfi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\web 2\Prjmagangluthfi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\web 2\Prjmagangluthfi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#4 D:\web 2\Prjmagangluthfi\app\Models\ModelUser.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\web 2\Prjmagangluthfi\app\Controllers\Home.php(12): App\Models\ModelUser->jmlUser()
+#6 D:\web 2\Prjmagangluthfi\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#7 D:\web 2\Prjmagangluthfi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\web 2\Prjmagangluthfi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\web 2\Prjmagangluthfi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\web 2\Prjmagangluthfi\system\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmag...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'dbprojectmagang' in D:\web 2\Prjmagangluthfi\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\web 2\Prjmagangluthfi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\web 2\Prjmagangluthfi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\web 2\Prjmagangluthfi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`i...', Array, false)
+#3 D:\web 2\Prjmagangluthfi\app\Models\ModelUser.php(37): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\web 2\Prjmagangluthfi\app\Controllers\Home.php(12): App\Models\ModelUser->jmlUser()
+#5 D:\web 2\Prjmagangluthfi\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#6 D:\web 2\Prjmagangluthfi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\web 2\Prjmagangluthfi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\web 2\Prjmagangluthfi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\web 2\Prjmagangluthfi\system\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmag...')
+#10 {main}
+CRITICAL - 2024-03-18 06:03:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dbprojectmagang'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`id_user`) AS `id_user`
+FROM `tbl_user`', [], false)
+ 3 APPPATH\Models\ModelUser.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(12): App\Models\ModelUser->jmlUser()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\web 2\\Prjmagangluthfi\\public\\index.php')
+INFO - 2024-03-18 06:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-18 06:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

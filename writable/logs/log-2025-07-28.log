@@ -1,0 +1,93 @@
+INFO - 2025-07-28 16:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-28 16:39:30 --> Undefined array key "nama_user"
+in APPPATH\Views\pemesanan\create.php on line 115.
+ 1 APPPATH\Views\pemesanan\create.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pemesanan/create', [], true)
+ 5 APPPATH\Controllers\Pemesanan.php(60): view('pemesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\TA-Ardian1\\public\\index.php')
+INFO - 2025-07-28 16:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-28 16:42:14 --> Undefined array key "nama_user"
+in APPPATH\Views\pemesanan\create.php on line 342.
+ 1 APPPATH\Views\pemesanan\create.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php', 342)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pemesanan/create', [], true)
+ 5 APPPATH\Controllers\Pemesanan.php(60): view('pemesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\TA-Ardian1\\public\\index.php')
+INFO - 2025-07-28 16:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-28 16:42:30 --> Undefined array key "nama_user"
+in APPPATH\Views\pemesanan\create.php on line 115.
+ 1 APPPATH\Views\pemesanan\create.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pemesanan/create', [], true)
+ 5 APPPATH\Controllers\Pemesanan.php(60): view('pemesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\TA-Ardian1\\public\\index.php')
+INFO - 2025-07-28 16:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-28 16:42:54 --> Undefined array key "nama_user"
+in APPPATH\Views\pemesanan\create.php on line 342.
+ 1 APPPATH\Views\pemesanan\create.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php', 342)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pemesanan/create', [], true)
+ 5 APPPATH\Controllers\Pemesanan.php(60): view('pemesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\TA-Ardian1\\public\\index.php')
+INFO - 2025-07-28 16:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-28 16:44:05 --> Undefined array key "nama_user"
+in APPPATH\Views\pemesanan\create.php on line 115.
+ 1 APPPATH\Views\pemesanan\create.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_user"', 'C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pemesanan/create', [], true)
+ 5 APPPATH\Controllers\Pemesanan.php(60): view('pemesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\TA-Ardian1\\public\\index.php')
+INFO - 2025-07-28 16:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-28 16:46:20 --> Undefined array key "jenis_kelamin"
+in APPPATH\Views\pemesanan\create.php on line 345.
+ 1 APPPATH\Views\pemesanan\create.php(345): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis_kelamin"', 'C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php', 345)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TA-Ardian1\\app\\Views\\pemesanan\\create.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pemesanan/create', [], true)
+ 5 APPPATH\Controllers\Pemesanan.php(60): view('pemesanan/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pemesanan->create()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\TA-Ardian1\\public\\index.php')
+INFO - 2025-07-28 16:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-07-28 16:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
