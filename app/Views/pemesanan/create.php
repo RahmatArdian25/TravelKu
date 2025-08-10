@@ -100,7 +100,7 @@
                     <div class="invalid-feedback">
                         <?= $validation->getError('bukti_pembayaran') ?>
                     </div>
-                    <p><small class="text-muted">Transfer Pembayaran ke BRI : 0669 0104 0802 509 Ardian atau ke Dana : 0831 8710 3434</small></p>
+                    <p><small class="text-muted">Transfer Pembayaran ke Rekening BRI : 0669 0104 0802 509 Ardian atau ke Dana : 0831 8710 3434</small></p>
                     <!-- <p><small class="text-muted">Upload bukti pembayaran untuk mengubah status menjadi "Sudah Bayar Belum Konfirmasi"</small></p> -->
                     <!-- <small class="fs-6 text-danger">Amankan kursi Anda"</small> -->
                     <!-- <p><small class="fs-6 text-danger">Lakukan pembayaran dalam 10 menit. Jika lewat batas waktu, pesanan akan otomatis dibatalkan"</small></p> -->
