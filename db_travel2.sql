@@ -1,6 +1,6 @@
 /*
 SQLyog Ultimate v11.11 (64 bit)
-MySQL - 8.0.30 : Database - db_travel1
+MySQL - 8.0.30 : Database - db_travel2
 *********************************************************************
 */
 
@@ -12,9 +12,9 @@ MySQL - 8.0.30 : Database - db_travel1
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`db_travel1` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`db_travel2` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 
-USE `db_travel1`;
+USE `db_travel2`;
 
 /*Table structure for table `detailpemesanan` */
 
@@ -31,11 +31,11 @@ CREATE TABLE `detailpemesanan` (
   KEY `kursikendaraanid` (`kursikendaraanid`),
   CONSTRAINT `detailpemesanan_ibfk_1` FOREIGN KEY (`pemesananid`) REFERENCES `pemesanan` (`idpemesanan`),
   CONSTRAINT `detailpemesanan_ibfk_2` FOREIGN KEY (`kursikendaraanid`) REFERENCES `kursikendaraan` (`idkursi`)
-) ENGINE=InnoDB AUTO_INCREMENT=142 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=145 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*Data for the table `detailpemesanan` */
 
-insert  into `detailpemesanan`(`detailpemesananid`,`pemesananid`,`kursikendaraanid`,`namapenumpang`,`jeniskelamin`) values (139,88,8,'Toro','Laki-laki'),(140,89,10,'Rayhan','Laki-laki'),(141,90,10,'Aidil','Laki-laki');
+insert  into `detailpemesanan`(`detailpemesananid`,`pemesananid`,`kursikendaraanid`,`namapenumpang`,`jeniskelamin`) values (139,88,8,'Toro','Laki-laki'),(140,89,10,'Rayhan','Laki-laki'),(141,90,10,'Aidil','Laki-laki'),(142,91,11,'Ardian','Laki-laki'),(144,93,10,'El Islami Fitri','Perempuan');
 
 /*Table structure for table `jadwalberangkat` */
 
@@ -55,11 +55,11 @@ CREATE TABLE `jadwalberangkat` (
   CONSTRAINT `jadwalberangkat_ibfk_1` FOREIGN KEY (`iduser`) REFERENCES `user` (`id_user`),
   CONSTRAINT `jadwalberangkat_ibfk_2` FOREIGN KEY (`idkendaraan`) REFERENCES `kendaraan` (`idkendaraan`),
   CONSTRAINT `jadwalberangkat_ibfk_3` FOREIGN KEY (`idrute`) REFERENCES `rute` (`idrute`)
-) ENGINE=InnoDB AUTO_INCREMENT=64 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=67 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*Data for the table `jadwalberangkat` */
 
-insert  into `jadwalberangkat`(`idjadwal`,`iduser`,`idkendaraan`,`idrute`,`tanggal`,`jam`) values (61,3,2,4,'2025-08-09','10:00:00'),(62,7,3,2,'2025-08-09','14:00:00'),(63,3,3,9,'2025-08-09','19:00:00');
+insert  into `jadwalberangkat`(`idjadwal`,`iduser`,`idkendaraan`,`idrute`,`tanggal`,`jam`) values (61,3,2,4,'2025-08-09','10:00:00'),(62,7,3,2,'2025-08-09','14:00:00'),(63,3,3,9,'2025-08-09','19:00:00'),(64,7,4,12,'2025-08-25','14:00:00'),(65,3,4,10,'2025-08-25','14:00:00'),(66,8,3,11,'2025-08-25','19:00:00');
 
 /*Table structure for table `kendaraan` */
 
@@ -118,11 +118,11 @@ CREATE TABLE `pemesanan` (
   CONSTRAINT `pemesanan_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `user` (`id_user`),
   CONSTRAINT `pemesanan_ibfk_2` FOREIGN KEY (`idrute`) REFERENCES `rute` (`idrute`),
   CONSTRAINT `pemesanan_ibfk_3` FOREIGN KEY (`idjadwal`) REFERENCES `jadwalberangkat` (`idjadwal`)
-) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=94 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 /*Data for the table `pemesanan` */
 
-insert  into `pemesanan`(`idpemesanan`,`id_user`,`idrute`,`tanggal`,`jumlah_orang`,`total`,`status`,`bukti_pembayaran`,`idjadwal`,`created_at`,`updated_at`) values (88,1,4,'2025-08-09',1,80000,'sudah bayar belum konfirmasi','1754725419_d4f065c6a763b7e6a3fd.png',61,'2025-08-09 07:43:39','2025-08-09 07:43:39'),(89,4,2,'2025-08-09',1,450000,'sudah bayar belum konfirmasi','1754725471_1a92080effaf46dfeb11.png',62,'2025-08-09 07:44:31','2025-08-09 07:44:31'),(90,6,9,'2025-08-09',1,80000,'sudah bayar belum konfirmasi','1754725689_208ed37a618c9ed13764.png',63,'2025-08-09 07:48:09','2025-08-09 07:48:09');
+insert  into `pemesanan`(`idpemesanan`,`id_user`,`idrute`,`tanggal`,`jumlah_orang`,`total`,`status`,`bukti_pembayaran`,`idjadwal`,`created_at`,`updated_at`) values (88,1,4,'2025-08-09',1,80000,'sudah bayar belum konfirmasi','1754725419_d4f065c6a763b7e6a3fd.png',61,'2025-08-09 07:43:39','2025-08-09 07:43:39'),(89,4,2,'2025-08-09',1,450000,'sudah bayar belum konfirmasi','1754725471_1a92080effaf46dfeb11.png',62,'2025-08-09 07:44:31','2025-08-09 07:44:31'),(90,6,9,'2025-08-09',1,80000,'sudah bayar belum konfirmasi','1754725689_208ed37a618c9ed13764.png',63,'2025-08-09 07:48:09','2025-08-09 07:48:09'),(91,12,12,'2025-08-25',1,80000,'sudah bayar belum konfirmasi','1756103594_19d063b17228189b7b52.png',64,'2025-08-25 06:33:14','2025-08-25 06:33:14'),(93,4,11,'2025-08-25',1,80000,'belum bayar',NULL,66,'2025-08-25 06:35:45','2025-08-25 06:35:45');
 
 /*Table structure for table `rute` */
 

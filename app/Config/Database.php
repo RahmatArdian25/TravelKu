@@ -29,7 +29,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'db_travel1',
+        'database' => 'db_travel2',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
