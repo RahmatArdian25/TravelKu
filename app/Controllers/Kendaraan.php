@@ -12,6 +12,8 @@ class Kendaraan extends BaseController
         $this->kendaraanModel = new ModelKendaraan();
     }
 
+    // ini perubahan
+
     public function index()
     {
         $data = [
@@ -36,24 +38,24 @@ class Kendaraan extends BaseController
     {
         $rules = [
             'nopolisi_kendaraan' => 'required|max_length[15]|is_unique[kendaraan.nopolisi_kendaraan]',
-            'namakendaraan'      => 'required|max_length[100]',
-            'jumlahkursi'        => 'required|numeric|greater_than_equal_to[1]'
+            'namakendaraan' => 'required|max_length[100]',
+            'jumlahkursi' => 'required|numeric|greater_than_equal_to[1]'
         ];
 
         $messages = [
             'nopolisi_kendaraan' => [
-                'required'   => 'Nomor polisi harus diisi',
+                'required' => 'Nomor polisi harus diisi',
                 'max_length' => 'Nomor polisi maksimal 15 karakter',
-                'is_unique'  => 'Nomor polisi sudah terdaftar'
+                'is_unique' => 'Nomor polisi sudah terdaftar'
             ],
             'namakendaraan' => [
-                'required'   => 'Nama kendaraan harus diisi',
+                'required' => 'Nama kendaraan harus diisi',
                 'max_length' => 'Nama kendaraan maksimal 100 karakter'
             ],
             'jumlahkursi' => [
-                'required'                => 'Jumlah kursi harus diisi',
-                'numeric'                 => 'Jumlah kursi harus berupa angka',
-                'greater_than_equal_to'  => 'Jumlah kursi minimal 1'
+                'required' => 'Jumlah kursi harus diisi',
+                'numeric' => 'Jumlah kursi harus berupa angka',
+                'greater_than_equal_to' => 'Jumlah kursi minimal 1'
             ]
         ];
 
@@ -63,8 +65,8 @@ class Kendaraan extends BaseController
 
         $data = [
             'nopolisi_kendaraan' => $this->request->getPost('nopolisi_kendaraan'),
-            'namakendaraan'      => $this->request->getPost('namakendaraan'),
-            'jumlahkursi'        => $this->request->getPost('jumlahkursi')
+            'namakendaraan' => $this->request->getPost('namakendaraan'),
+            'jumlahkursi' => $this->request->getPost('jumlahkursi')
         ];
 
         $this->kendaraanModel->save($data);
@@ -86,24 +88,24 @@ class Kendaraan extends BaseController
     {
         $rules = [
             'nopolisi_kendaraan' => "required|max_length[15]|is_unique[kendaraan.nopolisi_kendaraan,idkendaraan,{$id}]",
-            'namakendaraan'      => 'required|max_length[100]',
-            'jumlahkursi'        => 'required|numeric|greater_than_equal_to[1]|jumlah_kursi_masuk_akal'
+            'namakendaraan' => 'required|max_length[100]',
+            'jumlahkursi' => 'required|numeric|greater_than_equal_to[1]|jumlah_kursi_masuk_akal'
         ];
 
         $messages = [
             'nopolisi_kendaraan' => [
-                'required'   => 'Nomor polisi harus diisi',
+                'required' => 'Nomor polisi harus diisi',
                 'max_length' => 'Nomor polisi maksimal 15 karakter',
-                'is_unique'  => 'Nomor polisi sudah terdaftar'
+                'is_unique' => 'Nomor polisi sudah terdaftar'
             ],
             'namakendaraan' => [
-                'required'   => 'Nama kendaraan harus diisi',
+                'required' => 'Nama kendaraan harus diisi',
                 'max_length' => 'Nama kendaraan maksimal 100 karakter'
             ],
             'jumlahkursi' => [
-                'required'                 => 'Jumlah kursi harus diisi',
-                'numeric'                  => 'Jumlah kursi harus berupa angka',
-                'greater_than_equal_to'   => 'Jumlah kursi minimal 1',
+                'required' => 'Jumlah kursi harus diisi',
+                'numeric' => 'Jumlah kursi harus berupa angka',
+                'greater_than_equal_to' => 'Jumlah kursi minimal 1',
                 'jumlah_kursi_masuk_akal' => 'Jumlah kursi tidak boleh kurang dari jumlah kursi yang sudah ada'
             ]
         ];
@@ -116,13 +118,13 @@ class Kendaraan extends BaseController
         }
 
         $data = [
-            'idkendaraan'        => $id,
+            'idkendaraan' => $id,
             'nopolisi_kendaraan' => $this->request->getPost('nopolisi_kendaraan'),
-            'namakendaraan'      => $this->request->getPost('namakendaraan'),
-            'jumlahkursi'        => $this->request->getPost('jumlahkursi')
+            'namakendaraan' => $this->request->getPost('namakendaraan'),
+            'jumlahkursi' => $this->request->getPost('jumlahkursi')
         ];
 
-    $this->kendaraanModel->skipValidation(true)->save($data);
+        $this->kendaraanModel->skipValidation(true)->save($data);
 
         $this->kendaraanModel->save($data);
         return redirect()->to('/kendaraan')->with('message', 'Data kendaraan berhasil diperbarui');
